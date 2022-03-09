@@ -1,0 +1,160 @@
+@media (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .container img {
+    width: 30%;
+    height: 20%;
+  }
+
+  body {
+    font-family: Times;
+    background-color: #000;
+  }
+  p {
+    color: #fff;
+    text-align: justify;
+  }
+  a {
+    text-decoration: none;
+    color: #db0606ec;
+  }
+  li {
+    list-style: none;
+  }
+  a:hover {
+    color: black;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+  }
+
+  .nav-bar {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  .nav-bar li:hover {
+    background-color: #db0606ec;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  .nav-bar li {
+    padding: 5px 14px;
+  }
+  .container_1 {
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 5px;
+  }
+  .container_1 img {
+    width: 50%;
+    height: 20rem;
+    margin-right: 25px;
+  }
+  .container_2 {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .container_3 {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-instagram {
+    background: purple;
+  }
+
+  .books {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .img1 {
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+    margin: 25px 10px;
+  }
+  .img2 {
+    width: 27%;
+    height: 30%;
+    display: inline-block;
+    margin: 25px 10px;
+  }
+  .img3 {
+    width: 28%;
+    height: 30%;
+    display: inline-block;
+    margin: 25px 10px;
+  }
+  h1 {
+    color: #db0606ec;
+    font-size: 2rem;
+    text-align: center;
+  }
+  h2 {
+    color: #db0606ec;
+    text-align: center;
+  }
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+  }
+  input[type="submit"] {
+    background-color: #000;
+    color: #db0606ec;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #db0606ec;
+    color: #000;
+  }
+}
