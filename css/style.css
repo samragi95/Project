@@ -50,6 +50,11 @@
   .nav-bar li {
     padding: 5px 14px;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   .container_1 {
     display: flex;
     margin-top: 1rem;
