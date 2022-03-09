@@ -75,22 +75,10 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
+    float: right;
   }
   .fa:hover {
     opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-  }
-
-  .fa-twitter {
-    background: #55acee;
-    color: white;
-  }
-  .fa-instagram {
-    background: purple;
   }
 
   .books {
